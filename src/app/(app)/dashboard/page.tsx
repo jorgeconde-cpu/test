@@ -12,7 +12,6 @@ import {
   AlertTriangle,
   ArrowRight,
   Building2,
-  CircleDot,
 } from "lucide-react";
 import { useAccountStore } from "@/lib/store";
 import { mockAccountPlan, mockAccountSummaries } from "@/lib/mock-data";

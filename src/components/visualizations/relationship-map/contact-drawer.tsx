@@ -8,8 +8,6 @@ import {
   Save,
   Mail,
   Phone,
-  Linkedin,
-  User,
   Building2,
   Calendar,
 } from "lucide-react";
@@ -18,7 +16,7 @@ import {
   contactFormSchema,
   type ContactFormValues,
 } from "@/lib/validations/contact-schema";
-import type { ContactNode, BuyingRole, Sentiment, RelationshipStrength, InfluenceLevel } from "@/lib/types";
+import type { BuyingRole, Sentiment, RelationshipStrength, InfluenceLevel } from "@/lib/types";
 
 interface ContactDrawerProps {
   contactId: string;

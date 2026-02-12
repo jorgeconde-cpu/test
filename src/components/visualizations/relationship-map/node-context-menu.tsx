@@ -11,7 +11,6 @@ import {
   Cpu,
   DollarSign,
   Trash2,
-  Link,
 } from "lucide-react";
 import type { BuyingRole, Sentiment } from "@/lib/types";
 import { useRelationshipMapStore } from "@/lib/store";

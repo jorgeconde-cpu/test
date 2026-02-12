@@ -11,7 +11,6 @@ import {
   ChevronLeft,
   ChevronRight,
   Settings,
-  HelpCircle,
   Zap,
 } from "lucide-react";
 import { useUIStore, useAccountStore } from "@/lib/store";

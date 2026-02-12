@@ -9,7 +9,6 @@ import {
   AlertTriangle,
   Circle,
   XCircle,
-  ChevronRight,
 } from "lucide-react";
 import type { StrategicObjective, ObjectiveStatus } from "@/lib/types";
 

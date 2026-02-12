@@ -5,11 +5,7 @@ import { useWhiteSpaceStore } from "@/lib/store";
 import { mockOpportunityMatrix } from "@/lib/mock-data";
 import { WhiteSpaceGrid } from "@/components/visualizations/white-space";
 
-export default function WhiteSpacePage({
-  params,
-}: {
-  params: { accountId: string };
-}) {
+export default function WhiteSpacePage() {
   const { currentMatrix, setCurrentMatrix } = useWhiteSpaceStore();
 
   // Load mock data on mount

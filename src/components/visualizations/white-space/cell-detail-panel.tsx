@@ -18,7 +18,6 @@ import {
   type CellFormValues,
 } from "@/lib/validations/opportunity-schema";
 import type { CellStatus, MatrixCell } from "@/lib/types";
-import { formatCurrency } from "./matrix-cell";
 
 interface CellDetailPanelProps {
   cell: MatrixCell;

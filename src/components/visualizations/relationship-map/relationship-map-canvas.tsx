@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useCallback, useMemo, useState, useRef } from "react";
+import React, { useCallback, useMemo, useState } from "react";
 import ReactFlow, {
   Background,
   Controls,
@@ -8,15 +8,9 @@ import ReactFlow, {
   type Node,
   type Edge,
   type OnNodesChange,
-  type OnEdgesChange,
-  type OnConnect,
   type NodeMouseHandler,
-  applyNodeChanges,
-  applyEdgeChanges,
-  addEdge,
   MarkerType,
   ReactFlowProvider,
-  Panel,
 } from "reactflow";
 import "reactflow/dist/style.css";
 
@@ -86,7 +80,6 @@ function RelationshipMapInner() {
   const {
     currentMap,
     updateContactPosition,
-    selectedContactId,
     setSelectedContact,
   } = useRelationshipMapStore();
 

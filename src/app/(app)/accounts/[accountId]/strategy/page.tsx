@@ -10,11 +10,7 @@ import { ActivityTimeline } from "@/components/visualizations/strategy/activity-
 
 type Tab = "swot" | "objectives" | "timeline";
 
-export default function StrategyPage({
-  params,
-}: {
-  params: { accountId: string };
-}) {
+export default function StrategyPage() {
   const [activeTab, setActiveTab] = useState<Tab>("swot");
   const { currentPlan, setCurrentPlan } = useAccountStore();
 

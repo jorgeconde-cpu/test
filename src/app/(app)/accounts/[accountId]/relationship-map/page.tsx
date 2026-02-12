@@ -5,11 +5,7 @@ import { useRelationshipMapStore } from "@/lib/store";
 import { mockRelationshipMap } from "@/lib/mock-data";
 import { RelationshipMapCanvas } from "@/components/visualizations/relationship-map";
 
-export default function RelationshipMapPage({
-  params,
-}: {
-  params: { accountId: string };
-}) {
+export default function RelationshipMapPage() {
   const { currentMap, setCurrentMap } = useRelationshipMapStore();
 
   // Load mock data on mount

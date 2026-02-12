@@ -1,7 +1,7 @@
 "use client";
 
 import React from "react";
-import { UserPlus, ZoomIn, ZoomOut, Maximize2, Download } from "lucide-react";
+import { UserPlus, ZoomIn, ZoomOut, Maximize2 } from "lucide-react";
 import { useReactFlow } from "reactflow";
 
 interface MapToolbarProps {

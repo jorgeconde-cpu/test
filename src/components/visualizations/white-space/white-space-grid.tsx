@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useMemo, useState } from "react";
-import { Grid3X3, Filter, Download } from "lucide-react";
+import { Grid3X3 } from "lucide-react";
 import type { MatrixCell, CellStatus } from "@/lib/types";
 import { useWhiteSpaceStore } from "@/lib/store";
 import {

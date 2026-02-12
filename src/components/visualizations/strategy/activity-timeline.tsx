@@ -8,7 +8,6 @@ import {
   Circle,
   AlertCircle,
   Clock,
-  Flag,
 } from "lucide-react";
 import type { TimelineActivity, ActivityPriority } from "@/lib/types";
 
@@ -66,7 +65,7 @@ export function ActivityTimeline({ activities }: ActivityTimelineProps) {
         <div className="absolute left-[19px] top-0 bottom-0 w-px bg-slate-200" />
 
         <div className="space-y-0">
-          {sorted.map((activity, index) => {
+          {sorted.map((activity) => {
             const priority = PRIORITY_CONFIG[activity.priority];
             const activityDate = new Date(activity.date);
             const isPast = activityDate < now;

@@ -1,5 +1,5 @@
 import { create } from "zustand";
-import type { Account, AccountPlan, AccountSummary } from "../types";
+import type { AccountPlan, AccountSummary } from "../types";
 
 interface AccountState {
   /** Currently selected account */

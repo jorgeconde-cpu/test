@@ -3,8 +3,6 @@ import type {
   ContactNode,
   ContactConnection,
   RelationshipMap,
-  BuyingRole,
-  Sentiment,
 } from "../types";
 
 interface RelationshipMapState {
